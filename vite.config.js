@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/',
+  base: './', // <--- Yahan dot '.' lagana zaroori hai static build paths ke liye
 })
